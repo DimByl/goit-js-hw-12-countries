@@ -33,6 +33,7 @@ ul {
 .country-name {
   font-size: 34px;
   text-align: center;
+  margin: 10px 10px;
 }
 .country-languages,
 .list-of-countires {
@@ -40,7 +41,15 @@ ul {
 }
 .country-flag-img {
   position: absolute;
-  width: 350px;
+  width: 200px;
   top: 80px;
   right: 0;
+}
+.country-languages li {
+  margin-left: 20px;
+  margin: 10px 10px;
+  font-weight: 400;
+}
+.countries-list li {
+  margin: 10px 10px;
 }

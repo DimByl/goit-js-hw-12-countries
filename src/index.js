@@ -12,8 +12,8 @@ import debounce from 'lodash.debounce';
 
 const refs = {
     input: document.querySelector('.input'),
-    listofCountries: document.querySelector('.countries-list'),
-    countryContainers: document.querySelector('.country-container')
+    listofCountries: document.querySelector('.list-of-countires'),
+    countryContainers: document.querySelector('.container-countries')
 }
 
 refs.input.addEventListener('input', debounce(inputHandler, 500));

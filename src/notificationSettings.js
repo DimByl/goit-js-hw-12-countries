@@ -3,7 +3,7 @@ import * as PNotifyCountdown from '@pnotify/countdown';
 import { defaultModules } from '@pnotify/core';
 defaultModules.set(PNotifyMobile, {});
 export default {
-    toMachResults: {
+    foundTooMany: {
         type: 'error',
         title: 'Too many matches found.',
         text: 'Please enter specific query!',
@@ -13,7 +13,7 @@ export default {
             [PNotifyCountdown, {}]
         ])
     },
-    noResult: {
+    notFound: {
         type: 'error',
         title: 'No matches found.',
         text: 'Please enter different query!',
@@ -23,7 +23,7 @@ export default {
             [PNotifyCountdown, {}]
         ])
     },
-    successResult: {
+    found: {
         type: 'success',
         title: 'Country found.',
         delay: 3000,
@@ -32,7 +32,7 @@ export default {
             [PNotifyCountdown, {}]
         ])
     },
-    coupleResults: {
+    foundMany: {
         type: 'notice',
         title: 'Found more than one country.',
         text: 'Choose country you are searching for!',
